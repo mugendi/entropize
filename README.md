@@ -15,7 +15,7 @@ A versatile JavaScript library for analyzing image entropy and intelligently pos
 ## Installation
 
 ```bash
-npm install image-entropy-analyzer
+npm install entropize
 ```
 
 
@@ -24,7 +24,8 @@ npm install image-entropy-analyzer
 ### Basic Usage
 
 ```javascript
-const analyzer = new ImageEntropyAnalyzer();
+import Entropize from 'entropize';
+const analyzer = new Entropize();
 
 // With direct image URL
 analyzer.analyze('path/to/image.jpg', {
