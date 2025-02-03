@@ -1,0 +1,25 @@
+{
+  "name": "entropize",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {},
+  "description": "A versatile JavaScript library for analyzing image entropy and intelligently positioning/cropping images based on regions of high visual interest. ",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "entropy",
+    "cropping",
+    "visual",
+    "interest",
+    "position"
+  ],
+  "author": "Anthony Mugendi <ngurumugz@gmail.com>"
+}
